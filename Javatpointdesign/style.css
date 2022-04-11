@@ -93,11 +93,119 @@ html{
     padding-bottom: 20px;
 }
 
-.card{
+.cards{
     /* transition: all .25s ease-in-out; */
+    /* 
+    margin:5px;
+    padding:10px; */
+    margin:10px;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.card{
     border: 1px solid #efe8e8;
     width:120px;
-    margin:5px;
     height:100px;
+    margin:5px;
     padding:10px;
+    text-align: center;
+    box-shadow: rgb(100 100 111 / 20%) 0 7px 29px 0;
+}
+.card:hover{
+    box-shadow: rgba(9, 9, 10, 0.2) 0 7px 29px 0;
+    color:rgb(218, 95, 95);
+    cursor:pointer;
+}
+
+.javatpoint-services{
+    background-color: rgb(78, 78, 172);
+}
+.javatpoint-services>h2{
+    color:white;
+    padding:20px;
+}
+.javatpoint-services>p{
+    color:white;
+    padding-left:20px;
+    /* padding-bottom: 10px; */
+}
+
+.service-list{
+    color:white;
+    padding:10px;
+}
+
+.javatpoint-training{
+    background-color: #ce5e32;
+}
+.javatpoint-training>h2{
+    color:white;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.javatpoint-training>p{
+    color:white;
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+
+.newsletter{
+    display:flex;
+    align-items: center;
+    text-align: center;
+}
+.newsletter>p{
+    padding-left: 200px;
+}
+.newsletter>img{
+    margin:5px;
+}
+
+.footer{
+    display:flex;
+    justify-content: space-around;
+    background-color: #46c44c;
+    color:white;
+}
+
+.tut-ul{
+    list-style: none;
+    padding:5px;
+    cursor: pointer;
+}
+.tut-list{
+    padding:5px;
+}
+
+.web-list{
+    list-style: none;
+    padding:5px;
+    cursor: pointer;
+}
+.web-list-item{
+    padding-bottom: 10px;
+}
+
+.service-ul{
+    list-style: none;
+    padding:5px;
+    cursor: pointer;
+}
+.serv-list{
+    padding:5px;
+}
+
+
+.contact-para{
+    padding:3px;
+}
+.contact-ul{
+    list-style: none;
+    padding:5px;
+    cursor:pointer;
+}
+.contact-list{
+    padding:5px;
 }

@@ -3,7 +3,8 @@
 function verifyUser(){
     let userName=document.getElementById("user").value;
     let pass=document.getElementById("pass").value;  
-   if(userName === "Amol" && pass === "123")
+    let Name = userName.toLowerCase();
+   if(Name === "amol" && pass === "123")
    {
     location.href = 'home.html';
    }
